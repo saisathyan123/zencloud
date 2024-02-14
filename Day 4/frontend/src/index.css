@@ -1,0 +1,463 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h1 {
+  overflow-y: hidden;
+}
+
+.Home{
+    background:url("C:\Users\saisa\zencloud-ascent\frontend\src\assets\images\chelsea-gates-n8L1VYaypcw-unsplash.jpg") center center/cover;
+    background-repeat: no-repeat;
+    height: 98vh;
+    width: 100vw;
+    color: white;
+}
+
+.home-container {
+  display: flex;
+  justify-content:right;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.center-text{
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 180px;
+}
+
+.center-text h1{
+  
+  font-size: 80px;
+  font-family: 'Dancing Script', cursive !important;
+}
+
+.center-text p{
+  font-size: 32px;
+  font-family: 'Dancing Script', cursive !important;
+}
+
+
+.home-con{
+  font-size:40px;
+  justify-content: right;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+.form-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+
+}
+.form-center-signup{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; 
+    
+}
+.loginp{
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow-y: hidden;
+}
+
+.form-container {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 490px;
+    overflow-y: hidden;
+}
+
+.form-center img {
+    height: 500px;
+    
+
+}
+
+form {
+    padding: 20px;
+}
+
+.loginbut{
+    display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db;
+  color: #028df7;
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.loginbut:hover {
+    background-color: #025acd;
+    color: #f5f7f8;
+    border-color: #025acd;
+  }
+
+  label{
+    font-weight: 600;
+  }
+
+  .main-menu {
+    background: rgb(91, 91, 238);
+    width: 20%;
+    color: white;
+    height: 88vh;
+    overflow-y: hidden;
+    padding: 20px;
+  }
+
+  .side-links li 
+  {
+    margin: 15px 0;
+  }
+
+  .side-links {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    height: 100%;
+  }
+  .yoga{
+    display: flex;
+    align-items: center;
+  }
+  .carddash{
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .carddash2{
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .carddash3{
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .carddash4{
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .carddash5{
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .carddash6{
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .nav1{
+    padding: 20px;
+  }
+  .navbar{
+    border-radius: 15px;
+  }
+  .right{
+    display: flex;
+    float: right;
+  }
+
+
+  .dashboard-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #C3C476;
+    padding-top: 20px;
+    color: white;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar li:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .card {
+    flex: 1; 
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    color: #333;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  
+  .dh {
+    text-align: center; 
+    margin: 20px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      min-width: 100%;
+      order: 2;
+    }
+  }
+  
+  .card table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .card th, .card td {
+    padding: 10px;
+    text-align: center;
+  }
+  h2{
+    overflow-y: hidden;
+  }
+
+  .img-fluid{
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+
+  .contact_btn{
+    margin-left: 40px;  
+  }
+  .footer-wrapper {
+    margin: 6rem 0rem;
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+  }
+  .footer-logo-container {
+    max-width: 155px;
+  }
+  .footer-icons {
+    margin-top: 2.5rem;
+  }
+  .footer-icons svg {
+    font-size: 1.5rem;
+    margin-right: 1.25rem;
+    color: #585858;
+  }
+  /* .footer-section-one {
+    border: 2px solid blue;
+  } */
+  .footer-section-two {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .footer-section-columns {
+    display: flex;
+    flex-direction: column;
+    min-width: 190px;
+  }
+  .footer-section-columns span {
+    margin: 0.25rem 0rem;
+    font-weight: 600;
+    color: #4c4c4c;
+    cursor: pointer;
+  }
+--------------------------------------------------------
+/* profileform */
+
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #3ae840;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+-----------------------------------------------------
+/* profileview */
+.profile-view-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-view-container h2 {
+  text-align: center;
+}
+
+.profile-view-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.profile-view-container input,
+.profile-view-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.profile-view-container button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-view-container button:hover {
+  background-color: #45a049;
+}
+
+-------------------------------------------------------------------------
+/* AboutUsPage.css */
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-header {
+  color: #1a237e;
+  text-align: center;
+}
+
+.about-text {
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+/* Contact */
+/* ContactUsPage.css */
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-header {
+  color: #1a237e;
+  text-align: center;
+}
+
+.contact-text {
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.contact-details {
+  margin-top: 20px;
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form h2 {
+  color: #1a237e;
+}
+
+.cards {
+  display: flex;
+}
